@@ -1,0 +1,27 @@
+package com.dse.testcasescript;
+
+public interface ITestcaseCommandList {
+    String DELIMITER_BETWEEN_COMMAND_AND_VALUE = ":";
+    String COMMENT = "--";
+    String TEST_SUBPROGRAM = "TEST.SUBPROGRAM:";
+
+    String TEST_NEW = "TEST.NEW";
+    String TEST_REPLACE = "TEST.REPLACE";
+    String TEST_ADD = "TEST.ADD";
+    String TEST_END = "TEST.END";
+
+    String TEST_NAME = "TEST.NAME:";
+    String TEST_SLOT = "TEST.SLOT:";
+
+    String TEST_UNIT = "TEST.UNIT:";
+    String TEST_VALUE = "TEST.VALUE:";
+    String TEST_EXPECTED_USER_CODE = "TEST.EXPECTED_USER_CODE:";
+    String TEST_END_EXPECTED_USER_CODE = "TEST.END_EXPECTED_USER_CODE:";
+    String TEST_NOTES = "TEST.NOTES:";
+    String TEST_END_NOTES = "TEST.END_NOTES:";
+    String TEST_VALUE_USER_CODE = "TEST.VALUE_USER_CODE:";
+    String TEST_END_VALUE_USER_CODE = "TEST.END_VALUE_USER_CODE:";
+
+    String TEST_EXPECTED = "TEST.EXPECTED:";
+    String TEST_REQUIREMENT_KEY = "TEST.REQUIREMENT_KEY:";
+}
