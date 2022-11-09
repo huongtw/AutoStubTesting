@@ -1,4 +1,4 @@
-# AKAUTAUTO
+# AutoStubTesting
 
 ### Compile jar file
 
