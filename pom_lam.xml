@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>uet</groupId>
+    <artifactId>akautauto</artifactId>
+    <version>5.8.22</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.sun.xml.security</groupId>
+            <artifactId>xml-security-impl</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <!-- Excel 2007 (.xlsx) -->
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.17</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sourceforge.jeval</groupId>
+            <artifactId>jeval</artifactId>
+            <version>0.9.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jgrapht</groupId>
+            <artifactId>jgrapht-core</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.6.1</version>
+        </dependency>
+        <!-- JSON -->
+        <!--        <dependency>-->
+        <!--            <groupId>com.google.code.gson</groupId>-->
+        <!--            <artifactId>gson</artifactId>-->
+        <!--            <version>2.8.5</version>-->
+        <!--        </dependency>-->
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/log4j/log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>javax.mail-api</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.geronimo.specs/geronimo-jms_1.1_spec -->
+        <dependency>
+            <groupId>org.apache.geronimo.specs</groupId>
+            <artifactId>geronimo-jms_1.1_spec</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+
+
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <!--            <scope>test</scope>-->
+        </dependency>
+
+        <dependency>
+            <groupId>info.picocli</groupId>
+            <artifactId>picocli</artifactId>
+            <version>4.0.4</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/info.picocli/picocli-shell-jline3 -->
+        <dependency>
+            <groupId>info.picocli</groupId>
+            <artifactId>picocli-shell-jline3</artifactId>
+            <version>4.0.4</version>
+        </dependency>
+
+        <!-- Eclipse CDT -->
+        <dependency>
+            <groupId>com.ibm.icu_54.1.1.v201501272100.jar</groupId>
+            <artifactId>com.ibm.icu_54.1.1.v201501272100.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.aix.source_5.4.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.aix.source_5.4.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.aix_5.4.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.aix_5.4.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.linux.ppc64_5.2.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.linux.ppc64_5.2.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.linux.ppc64le_1.0.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.linux.ppc64le_1.0.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.linux.source_5.3.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.linux.source_5.3.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.linux.x86_5.3.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.linux.x86_5.3.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.linux.x86_64_5.3.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.linux.x86_64_5.3.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.linux_5.3.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.linux_5.3.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.lrparser.source_5.2.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.lrparser.source_5.2.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.lrparser.xlc.source_5.1.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.lrparser.xlc.source_5.1.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.lrparser.xlc_5.1.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.lrparser.xlc_5.1.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.lrparser_5.2.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.lrparser_5.2.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.macosx.source_5.3.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.macosx.source_5.3.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.macosx_5.3.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.macosx_5.3.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.native.source_5.9.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.native.source_5.9.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.native_5.9.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.native_5.9.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.parser.upc.source_5.1.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.parser.upc.source_5.1.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.parser.upc_5.1.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.parser.upc_5.1.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.source_6.0.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.source_6.0.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.win32.source_5.4.1.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.win32.source_5.4.1.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.win32.x86_5.4.1.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.win32.x86_5.4.1.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.win32.x86_64_5.4.1.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.win32.x86_64_5.4.1.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core.win32_5.4.1.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core.win32_5.4.1.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.cdt.core_6.0.0.201607151550.jar</groupId>
+            <artifactId>org.eclipse.cdt.core_6.0.0.201607151550.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.core.resources.win32.x86_64_3.5.0.v20121203-0906.jar</groupId>
+            <artifactId>org.eclipse.core.resources.win32.x86_64_3.5.0.v20121203-0906.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.core.resources_3.8.100.v20130521-2026.jar</groupId>
+            <artifactId>org.eclipse.core.resources_3.8.100.v20130521-2026.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.equinox.common_3.7.0.v20150402-1709.jar</groupId>
+            <artifactId>org.eclipse.equinox.common_3.7.0.v20150402-1709.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.osgi_3.9.1.v20130814-1242.jar</groupId>
+            <artifactId>org.eclipse.osgi_3.9.1.v20130814-1242.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cdtmiparser.jar</groupId>
+            <artifactId>cdtmiparser.jar</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!--for CFT 9.0-->
+        <!--START-->
+        <!-- https://mvnrepository.com/artifact/org.eclipse.osgi/org.eclipse.osgi -->
+        <dependency>
+            <groupId>org.eclipse.osgi</groupId>
+            <artifactId>org.eclipse.osgi</artifactId>
+            <version>3.7.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.core</groupId>
+            <artifactId>org.eclipse.core.runtime</artifactId>
+            <version>3.7.0</version>
+        </dependency>
+        <!--https://mvnrepository.com/artifact/org.eclipse.equinox.registry/source-->
+        <dependency>
+            <groupId>org.eclipse.equinox</groupId>
+            <artifactId>org.eclipse.equinox.registry</artifactId>
+            <version>3.5.101</version>
+        </dependency>
+
+        <!--END-->
+
+        <dependency>
+            <groupId>org.fxmisc.richtext</groupId>
+            <artifactId>richtextfx</artifactId>
+            <version>0.10.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.10.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.reflections</groupId>
+            <artifactId>reflections</artifactId>
+            <version>0.9.12</version>
+        </dependency>
+
+    </dependencies>
+
+    <!-- maven-compiler-plugin -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.dse.guifx_v3.main.AppStart</mainClass>
+                        </manifest>
+                        <manifestEntries>
+                            <Class-Path>libs/cdt</Class-Path>
+                        </manifestEntries>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id> <!-- this is used for inheritance merges -->
+                        <phase>package</phase> <!-- bind to the packaging phase -->
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+
+
+    </build>
+
+    <repositories>
+        <repository>
+            <id>cdt</id>
+            <url>file://${project.basedir}/cdt</url>
+        </repository>
+    </repositories>
+</project>

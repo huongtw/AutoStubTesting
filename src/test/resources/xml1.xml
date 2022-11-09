@@ -1,0 +1,31 @@
+<TestCases>
+    <TestCase id="1" functionId="13">
+        <inputs>
+            <input>
+                <nodeId>10</nodeId>
+                <value>5</value>
+            </input>
+            <input>
+                <nodeId>11</nodeId>
+                <value>c</value>
+            </input>
+        </inputs>
+        <stubs>
+            <stub>
+                <nodeId>12</nodeId>
+                <enable>true</enable>
+                <type>StubCode</type>
+                <value>
+                    code
+                </value>
+            </stub>
+        </stubs>
+        <expOutput>
+            <output>
+                <nodeId>10</nodeId>
+                <value>50</value>
+            </output>
+        </expOutput>
+    </TestCase>
+</TestCases>
+

@@ -1,0 +1,49 @@
+Name,Standard,,,,
+int,s16,s16,s16,s16,s16
+signed int,s16+,s32,s32,s32,s32
+unsigned int,u16+,u32,u32,u32,u32
+signed short int,s16+,s16,s16,s16,s16
+unsigned short int,u16+,u16,u16,u16,u16
+signed long int,s32+,s32,s32,s32,s64
+unsigned long int,u32+,u32,u32,u32,u64
+signed long long int,s64+,s64,s64,s64,s64
+unsigned long long int,u64+,u64,u64,u64,u64
+signed char,s8+,s8,s8,s8,s8
+unsigned char,u8+,u8,u8,u8,u8
+char,c8+,u8,u8,u8,u8
+wchar_t,c8+,u16,u16,u32,u32
+wint_t,c16+,s32,s32,s32,s32
+size_t,uP+,u32,u64,u32,u64
+ptrdiff_t,sP+,s32,s64,s32,s64
+intptr_t,sP+,s32,s64,s32,s64
+uintptr_t,uP+,u32,u64,u32,u64
+int8_t,s8?,s8,s8,s8,s8
+uint8_t,u8?,u8,u8,u8,u8
+int16_t,s16?,s16,s16,s16,s16
+uint16_t,u16?,u16,u16,u16,u16
+int32_t,s32?,s32,s32,s32,s32
+uint32_t,u32?,u32,u32,u32,u32
+int64_t,s64?,s64,s64,s64,s64
+uint64_t,u64?,u64,u64,u64,u64
+int_least8_t,s8+,s8,s8,s8,s8
+uint_least8_t,u8+,u8,u8,u8,u8
+int_least16_t,s16+,s16,s16,s16,s16
+uint_least16_t,u16+,u16,u16,u16,u16
+int_least32_t,s32+,s32,s32,s32,s32
+uint_least32_t,u32+,u32,u32,u32,u32
+int_least64_t,s64+,s64,s64,s64,s64
+uint_least64_t,u64+,u64,u64,u64,u64
+int_fast8_t,s8+,s8*,s8*,s8*,s8*
+uint_fast8_t,u8+,u8*,u8*,u8*,u8*
+int_fast16_t,s16+,s32,s64,s32,s64
+uint_fast16_t,u16+,u32,u64,u32,u64
+int_fast32_t,s32+,s32,s64,s32,s64
+uint_fast32_t,u32+,u32,u64,u32,u64
+int_fast64_t,s64+,s64,s64,s64,s64
+uint_fast64_t,u64+,u64,u64,u64,u64
+int_fast64_t,s64+,s64,s64,s64,s64
+uint_fast64_t,u64+,u64,u64,u64,u64
+intmax_t,s64+,s64,s64,s64,s64
+uintmax_t,u64+,u64,u64,u64,u64
+bool,b8+,b8,b8,b8,b8
+sig_atomic_t,c8+,s32,s32,s32,s32
