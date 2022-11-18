@@ -50,15 +50,21 @@ Sau khi khởi tạo môi trường thành công, xuất hiện giao diện, ch�
 ![image](https://user-images.githubusercontent.com/38599931/202730517-1b6d5caa-ca16-4f45-90f4-50c28070441c.png)
 
 Nhấn phải vào hàm cần sinh dữ liệu kiểm thử, chọn Generate test data automatically
-![image](https://user-images.githubusercontent.com/38599931/202730918-7684c5e3-aa9a-465b-a852-3cb6cb39c96d.png)
+![image](https://user-images.githubusercontent.com/38599931/202734150-be354264-28f7-4471-ae0a-7d902e1a3110.png)
+
 Màn hình xuất hiện thông báo về thời gian sinh test data và số bộ dữ liệu kiểm thử sinh ra. Trên màn hình xuất hiện độ phủ cả tệp (Source code) và độ phủ hàm (Function).
 ![image](https://user-images.githubusercontent.com/38599931/202732430-cf96b082-2517-4b9f-94bf-b464b6f0f52b.png)
-Xem test case vừa tạo ra, nhấn chuột phải vào tên test case, chọn Open Tes case
-![image](https://user-images.githubusercontent.com/38599931/202733534-a7f82874-368c-489e-bd1b-198b0ca3f79e.png)
+Xem test case vừa tạo ra, nhấn chuột phải vào tên test case, chọn Open Test case
+![image](https://user-images.githubusercontent.com/38599931/202734499-5676f8f4-7c8d-4116-b211-80acc87c6b25.png)
 Muốn chạy test case vừa sinh ra, nhấn phải chuột vào test case cần chạy, chọn Excute
-![image](https://user-images.githubusercontent.com/38599931/202732619-523a4628-1eb5-4769-8927-5f818562f13f.png)
+![image](https://user-images.githubusercontent.com/38599931/202734957-ef62f9cb-f778-4a30-a18a-868b5adae87e.png)
+
 Xuất hiện thông báo kết quả
-![image](https://user-images.githubusercontent.com/38599931/202733214-3b130553-24d8-43e5-a9b5-313b900ec501.png)
+![image](https://user-images.githubusercontent.com/38599931/202734588-aea94df7-85e7-4d99-831c-b1fc424bf7e0.png)
+
+Cuối cùng, muốn xem test driver và test path sinh ra, chọn View test driver (after excution) hoặc View test path (after excution) tương ứng
+![image](https://user-images.githubusercontent.com/38599931/202735833-8a5308b0-af0e-4b3b-a95a-4ef7ce6c36a1.png)
+
 
 
 
