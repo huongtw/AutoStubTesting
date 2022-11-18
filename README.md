@@ -55,14 +55,14 @@ Nhấn phải vào hàm cần sinh dữ liệu kiểm thử, chọn Generate tes
 Màn hình xuất hiện thông báo về thời gian sinh test data và số bộ dữ liệu kiểm thử sinh ra. Trên màn hình xuất hiện độ phủ cả tệp (Source code) và độ phủ hàm (Function).
 ![image](https://user-images.githubusercontent.com/38599931/202732430-cf96b082-2517-4b9f-94bf-b464b6f0f52b.png)
 Xem test case vừa tạo ra, nhấn chuột phải vào tên test case, chọn Open Test case
-![image](https://user-images.githubusercontent.com/38599931/202734499-5676f8f4-7c8d-4116-b211-80acc87c6b25.png)
+![image](https://user-images.githubusercontent.com/38599931/202736861-47f8eb5f-aa56-4ba6-a73b-54ec378c9684.png)
 Muốn chạy test case vừa sinh ra, nhấn phải chuột vào test case cần chạy, chọn Excute
 ![image](https://user-images.githubusercontent.com/38599931/202734957-ef62f9cb-f778-4a30-a18a-868b5adae87e.png)
 
 Xuất hiện thông báo kết quả
 ![image](https://user-images.githubusercontent.com/38599931/202734588-aea94df7-85e7-4d99-831c-b1fc424bf7e0.png)
 
-Cuối cùng, muốn xem test driver và test path sinh ra, chọn View test driver (after excution) hoặc View test path (after excution) tương ứng
+Cuối cùng, muốn xem test driver và test path sinh ra, chọn View test driver (after execution) hoặc View test path (after execution) tương ứng
 ![image](https://user-images.githubusercontent.com/38599931/202735833-8a5308b0-af0e-4b3b-a95a-4ef7ce6c36a1.png)
 
 
